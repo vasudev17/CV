@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+a {
+    color: #45B29A;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 50px 10px 20px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+a:hover {
+    color: #576F72;
+}
+.copyright {
+    color: #576F72;
+    font-size: 0.75rem;
+    padding: 20px 0px 20px 0px;
+}
+
+p {
+    line-height: 2;
+
+}
+
+h1 {
+    margin: 100px auto 0px auto;
+    padding-top: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #4BB19A;
+    line-height: 2;
+    /* 1em = 16px and 16px=100%*/
+    /* Always use rem (root em) as it would ignore any parent sizing */
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #4BB19A;
+    font-weight: normal;
+    line-height: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #45B29A;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, ##11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, ##11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, ##11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, ##11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, ##11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.contact-me {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E0EBE8;
+    padding-top: 100px;
+    position: relative;
+}
+.middle-container {
+    position: relative;
+    top: 75px;
+    margin: 100px 0 150px 0;
+}
+.bottom-container {
+    background-color: #C5DED7;
+    padding: 10px 0 10px 0;
+}
+.profile {
+    margin-bottom: 20px auto 100px auto;
+}
+.footer-link {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 25px;
+   
+}
+.linkedin-logo {
+    width: 20px;
+    display: inline;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.cv-logo {
+    width: 20px;
+    display: inline;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.skill-row {
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.middle-container-images {
+    width: 30%;
+    margin-right: 30px;
+    float: left;
+}
+
+.skill-images2 {
+    width: 30%;
+    margin-left: 30px auto;
+    float: right; /* we can use clear instead of float to remove 
+                    wrapping the text(<p>) around the image */
+}
+.middle-container-images2 {
+    width: 30%;
+    margin-left: 30px;
+    float: right; /* we can use clear instead of float to remove 
+                    wrapping the text(<p>) around the image */
+}
+p {
+    text-align: justify;
+}
